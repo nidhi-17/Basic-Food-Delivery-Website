@@ -1,0 +1,206 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.center {
+    text-align: center;
+}
+
+* {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#navbar {
+    display: flex;
+      
+    position: fixed;
+    width: 100%;
+
+    /* border: 2px solid black; */
+}
+
+#navbar ul {
+    display: flex;
+      
+
+}
+
+#navbar::before {
+    content: " ";
+    background-color: black;
+    position: absolute;
+    opacity: 0.1;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+a:hover {
+    background-color: black;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#welcome {
+    text-align: center;
+}
+
+#navbar img {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border-radius: 50px;
+    top: 0px;
+}
+
+#logo {
+    border: px solid green;
+}
+
+#sec1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 180px;
+
+}
+
+.h-primary {
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+
+
+#sec1::before {
+    position: absolute;
+    content: " ";
+    background: url("bg1.jpg") no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.btn {
+    border-radius: 5px;
+    border-color: gray;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.orders {
+    display: flex;
+      
+    border: 2px solid black;
+}
+
+#service {
+    display: flex;
+    font-size: medium;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+
+#Our-Services {
+    display: block;
+    margin-top: 210px;
+
+}
+
+#service img {
+    height: 100px;
+    width: 190px;
+    padding-left: 100px;
+    padding-top: 15px;
+}
+
+#service p {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: small;
+}
+
+.box-1 {
+    border: 2px solid red;
+    border-radius: 15px;
+    background-color: rgb(250, 212, 219);
+    position: relative;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    height: 250px;
+}
+
+.box-2 {
+    border: 2px solid red;
+    border-radius: 15px;
+    background-color: rgb(250, 212, 219);
+    position: relative;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    height: 250px;
+}
+
+.box-3 {
+    border: 2px solid red;
+    border-radius: 15px;
+    background-color: rgb(250, 212, 219);
+    position: relative;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 250px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Contact-us{
+    padding-top: 20px;
+}
+#contact::before{
+    position: absolute;
+    content: " ";
+    background:url("contact.png") no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.7;
+    height:50%;
+    width: 100%;
+}
+#Phone-number{
+    width:200px;
+}
+.con{
+    position: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.submit{
+    position: block;
+    margin-left: 100px;
+    margin-top: 10px;
+}
